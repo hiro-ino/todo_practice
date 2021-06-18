@@ -1,11 +1,11 @@
 <?php
 
 // ファイルの読み込み
-require_once('./Model/Task.php');
+require_once('Models/Task.php');
 
 // データの受け取り
-$title = $_POST('title');
-$contents = $_POST('contents');
+$title = $_POST['title'];
+$contents = $_POST['contents'];
 $time = date("Y/m/d H:i:m");
 
 
