@@ -9,7 +9,7 @@ $id = $_POST['id'];
 
 // 3. DBからデータの削除
 $task = new Task();
-$task->delete($id);
+$task->delete([$id]);
 
 // 4. リダイレクト
 header('location: index.php');
