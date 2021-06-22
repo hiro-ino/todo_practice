@@ -6,7 +6,7 @@ require_once('Models/Task.php');
 // データの受け取り
 $title = $_POST['title'];
 $contents = $_POST['contents'];
-$time = date("Y/m/d H:i:s");
+$time = date("Y/m/d H:i:s");
 
 
 // DBへのデータ保存
